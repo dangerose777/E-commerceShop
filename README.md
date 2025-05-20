@@ -32,12 +32,12 @@ npm run dev
 
 ## To do:
 ### UI
-- [x]  Main site
-- [x]  Product sites
-- [x]  Login site
-- [x]  Buying site
+- [ ]  Main site
+- [ ]  Product sites
+- [ ]  Login site
+- [ ]  Buying site
 ### FUNCTIONALITY
-- [x]  Main site
-- [x]  Product sites
-- [x]  Login site
-- [x]  Buying site
+- [ ]  Main site
+- [ ]  Product sites
+- [ ]  Login site
+- [ ]  Buying site
