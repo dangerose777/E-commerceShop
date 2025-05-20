@@ -1,0 +1,45 @@
+.navbar {
+  position: relative;
+  height: 60px;
+  width: 140vh;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+a {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.search {
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+#buttonSearch {
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+}
+.account {
+  margin-top: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
