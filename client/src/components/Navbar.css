@@ -13,6 +13,12 @@ a {
   font-size: 32px;
   font-weight: bold;
   text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover, #buttonSearch:hover {
+  transition: 0.3s;
+  color: pink;
 }
 
 .logo {
@@ -21,9 +27,7 @@ a {
   transform: translateX(-50%);
 }
 
-
 .search {
-  margin-left: auto;
   margin-top: 10px;
   margin-right: 20px;
 }
@@ -33,6 +37,7 @@ a {
     font-size: 32px;
     cursor: pointer;
 }
+
 .account {
   margin-top: 10px;
 }
@@ -42,4 +47,63 @@ button {
     border: none;
     outline: none;
     box-shadow: none;
+}
+
+.searchInputHolder {
+  width: 28%;
+  height: 50px;
+  margin-left: 64%;
+  position: relative;
+}
+
+#searchInput {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  text-align: right;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+
+.bottom-border {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 2px;
+  background-color: pink;
+  width: 0%;
+  transition: width 0.3s ease;
+  z-index: 2;
+}
+
+.bottom-border.animate {
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.search--inactive {
+  margin-left: auto;
+}
+
+.search--active {
+  margin-left: auto;
+}
+
+#buttonSearch {
+  font-size: 32px;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.search--active #buttonSearch {
+  color: pink;
 }
