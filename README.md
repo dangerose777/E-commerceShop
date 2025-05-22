@@ -36,8 +36,10 @@ npm run dev
 - [ ]  Product sites
 - [ ]  Login site
 - [ ]  Buying site
+- [ ]  Account site
 ### FUNCTIONALITY
 - [ ]  Main site
 - [ ]  Product sites
 - [ ]  Login site
 - [ ]  Buying site
+- [ ]  Account site
