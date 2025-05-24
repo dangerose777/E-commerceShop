@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Jack Daniels Honey 0.7",
+    "image": "http://localhost:8080/images/jackdaniels_honey.jpg",
+    "price": 26.17,
+    "description": "American whiskey with honey liqueur."
+  },
+  {
+    "id": 2,
+    "name": "Jack Daniels Fire 0.7",
+    "image": "http://localhost:8080/images/jackdaniels_fire.jpg",
+    "price": 28.04,
+    "description": "American whiskey with cinnamon liqueur."
+  },
+    {
+    "id": 3,
+    "name": "Desperados 0%",
+    "image": "http://localhost:8080/images/desperados_0.jpg",
+    "price": 1.20,
+    "description": "Non-alcoholic beer Desperados."
+  },
+    {
+    "id": 4,
+    "name": "Desperados Red",
+    "image": "http://localhost:8080/images/desperados_red.jpg",
+    "price": 1.73,
+    "description": "Desperados Red with the flavor of guarana and exotic Cachaça."
+  }
+]
